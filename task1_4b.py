@@ -16,7 +16,7 @@ time.sleep(1)
 driver.switch_to_window(driver.window_handles[1]) # switch window
 driver.find_element_by_name("email").send_keys("george.george5000@gmail.com") # type email
 time.sleep(1)
-driver.find_element_by_name("pass").send_keys("otheosEinaiMegalos#31") # type password
+driver.find_element_by_name("pass").send_keys("otasdasdaaas31") # type password
 driver.find_element_by_name("login").click() # click login
 
 #driver.switch_to_window(driver.window_handles[1]) # switch window
