@@ -12,5 +12,5 @@ driver.find_element_by_xpath("//*[@id='appMountPoint']/div/div/div/div/div/div[1
 time.sleep(1)
 driver.find_element_by_name("userLoginId").send_keys("ireneiliadou2@gmail.com") # email
 time.sleep(1)
-driver.find_element_by_name("password").send_keys("seferlis123") # password
+driver.find_element_by_name("password").send_keys("seferlis1!!!") # password
 driver.find_element_by_xpath("//*[@id='appMountPoint']/div/div[3]/div/div/div[1]/form/button").click() # Sing In
