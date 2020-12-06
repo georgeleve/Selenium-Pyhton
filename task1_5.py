@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 
 # 0 minute, 4 times a day, for 5 days, in August, whatever day  (using crontab)
 # crontab -e      
@@ -24,8 +24,8 @@ driver.find_element_by_xpath("//*[@id='qc-cmp2-ui']/div[2]/div/button[3]").click
 time.sleep(1)
 driver.find_element_by_xpath("//*[@id='content-container']/div[1]/header/div[1]/div/div[2]/div[1]/div[1]/div[2]/a[1]").click()
 time.sleep(1)
-driver.find_element_by_name("email").send_keys("george.george5000@gmail.com")
-driver.find_element_by_name("password").send_keys("george12345")
+driver.find_element_by_name("email").send_keys("yourgmail@gmail.com")
+driver.find_element_by_name("password").send_keys("yourpassword")
 driver.find_element_by_xpath("//*[@id='nb-popup-login']/div[2]/div[4]/div[2]/form/div[4]").click()
 time.sleep(1)            
 
@@ -39,7 +39,7 @@ for elem in elems:
 i = 45
 while i < 65:
     driver.get(mylist[i])
-    save_cookies(driver, "C:\\Users\\leven\\Desktop\\Python\\cookies.txt")
+    save_cookies(driver, "C:\\yourpath\\cookies.txt")
     time.sleep(2)
     i += 1
 
