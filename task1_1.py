@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 
 # (1) store all cookies to a cookie.out file
 # (2) store all http traffic to a json output (hint : browsermob proxy, mitmproxy)
