@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 # Login into netflix using facebook account
 from selenium import webdriver
 import time
@@ -14,9 +14,9 @@ driver.find_element_by_xpath("//*[@id='appMountPoint']/div/div[3]/div/div/div[2]
 time.sleep(1)
 
 driver.switch_to_window(driver.window_handles[1]) # switch window
-driver.find_element_by_name("email").send_keys("george.george5000@gmail.com") # type email
+driver.find_element_by_name("email").send_keys("yourgmail@gmail.com") # type email
 time.sleep(1)
-driver.find_element_by_name("pass").send_keys("otasdasdaaas31") # type password
+driver.find_element_by_name("pass").send_keys("yourpassword") # type password
 driver.find_element_by_name("login").click() # click login
 
 #driver.switch_to_window(driver.window_handles[1]) # switch window
