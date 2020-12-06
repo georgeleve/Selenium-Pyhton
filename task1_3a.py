@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152 
+# Georgios Gerasimos Leventopoulos
 # Visit www.facebook.com and login to your facebook account.
 from selenium import webdriver
 import time
