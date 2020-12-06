@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 # Login into Netflix using email
 
 from selenium import webdriver
@@ -10,7 +10,7 @@ driver.find_element_by_xpath("//*[@id='cookie-disclosure']/div/button/span[1]").
 time.sleep(1)
 driver.find_element_by_xpath("//*[@id='appMountPoint']/div/div/div/div/div/div[1]/div[2]/a").click() # Sign In
 time.sleep(1)
-driver.find_element_by_name("userLoginId").send_keys("ireneiliadou2@gmail.com") # email
+driver.find_element_by_name("userLoginId").send_keys("yourgmail@gmail.com") # email
 time.sleep(1)
-driver.find_element_by_name("password").send_keys("seferlis1!!!") # password
+driver.find_element_by_name("password").send_keys("yourpassword") # password
 driver.find_element_by_xpath("//*[@id='appMountPoint']/div/div[3]/div/div/div[1]/form/button").click() # Sing In
