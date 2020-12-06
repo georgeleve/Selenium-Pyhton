@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 from selenium import webdriver
 import time
 import pickle
