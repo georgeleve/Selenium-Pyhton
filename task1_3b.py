@@ -1,4 +1,4 @@
-# Georgios Gerasimos Leventopoulos csd4152
+# Georgios Gerasimos Leventopoulos
 # Visit www.gmail.com and login to your email.
 from selenium import webdriver
 import time
